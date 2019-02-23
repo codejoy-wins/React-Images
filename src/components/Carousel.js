@@ -13,9 +13,14 @@ export class Carousel extends Component {
       // map a list of urls to create elements.
 
       const xp = gallery.map((thing, spot)=><img key={spot} onClick={()=>disp(thing)} style={override2} src={thing}></img>);
-
+      const override3 ={
+          "height":"11rem",
+          "width":"80%",
+          "overflow": "auto",
+          "textAlign": "center",
+      }
     return (
-      <div>
+      <div style={override3}>
         {xp}
       </div>
     )

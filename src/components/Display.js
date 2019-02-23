@@ -6,8 +6,11 @@ export class Display extends Component {
       const myStyle = {
           "height": "40rem",
       }
+      const moreStyle = {
+        "padding": "5rem"
+      }
     return (
-      <div>
+      <div style={moreStyle}>
         <img style={myStyle} src={this.props.featuredImage}></img>
       </div>
     )

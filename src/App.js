@@ -14,7 +14,7 @@ import './App.css';
 class App extends Component {
 
   state = {
-    images: [hunter, got, kobe, mj, lebron],
+    images: [hunter, got, kobe, mj, lebron, hunter, got, kobe, mj, lebron, hunter, got, kobe, mj, lebron, hunter, got, kobe, mj, lebron,  hunter, got, kobe, mj, lebron,  ],
     mainImage: '',
   }
 
