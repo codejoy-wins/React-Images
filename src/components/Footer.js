@@ -7,7 +7,7 @@ export class Footer extends Component {
       }
     return (
       <div>
-        <a style={SuperStyle}>Jann Software</a>
+        <a style={SuperStyle} href = "https://maxjann.com">Jann Software</a>
       </div>
     )
   }
