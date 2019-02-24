@@ -7,7 +7,7 @@ export class Display extends Component {
           "width": "100%",
       }
       const moreStyle = {
-        "padding": "2rem",
+        "padding": ".5rem",
         "textAlign": "center",
       }
     return (
