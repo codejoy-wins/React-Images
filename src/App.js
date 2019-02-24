@@ -11,14 +11,14 @@ import lebron from './images/lebron.jpg';
 import Footer from './components/Footer';
 import life from './images/lif3.jpg';
 import apoc from './images/apoc.jpg';
-
+import em from './images/em.jpeg';
 import Xp from './components/Xp';
 import './App.css';
 
 class App extends Component {
 
   state = {
-    images: [ lebron, got, kobe, mj, elon, hunter, got, life, apoc, hunter, got, dragon, elon, lebron, hunter, got, kobe, mj, lebron,  hunter, got, kobe, mj, lebron, dragon ],
+    images: [ lebron, got, kobe, mj, em, elon, got, life, apoc, hunter, got, dragon, elon, lebron, hunter, got, kobe, mj, lebron,  hunter, got, kobe, mj, lebron, dragon ],
     mainImage: elon,
   }
 
