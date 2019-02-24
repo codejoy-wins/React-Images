@@ -1,0 +1,7 @@
+.flow {
+    width: 100%;
+    /* overflow-X: "scroll"; */
+    overflow: "auto";
+    height:11rem;
+    background-color:rgba(255, 192, 203, 0.575);
+}

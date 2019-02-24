@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import flow from './flow.css';
 
 export class Carousel extends Component {
   render() {
@@ -11,16 +12,16 @@ export class Carousel extends Component {
 
       const { gallery, disp } = this.props;
       // map a list of urls to create elements.
+      //overflow X all solutions failed
 
       const xp = gallery.map((thing, spot)=><img key={spot} onClick={()=>disp(thing)} style={override2} src={thing}></img>);
       const override3 ={
           "height":"11rem",
-          "width":"80%",
-          "overflow": "auto",
           "textAlign": "center",
+          "overflow": "auto",
       }
     return (
-      <div style={override3}>
+      <div className="flow" style={override3}>
         {xp}
       </div>
     )

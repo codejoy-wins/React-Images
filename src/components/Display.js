@@ -4,10 +4,11 @@ export class Display extends Component {
   render() {
       console.log(`feature : ${this.props.featuredImage}`)
       const myStyle = {
-          "height": "40rem",
+          "width": "100%",
       }
       const moreStyle = {
-        "padding": "5rem"
+        "padding": "2rem",
+        "textAlign": "center",
       }
     return (
       <div style={moreStyle}>
