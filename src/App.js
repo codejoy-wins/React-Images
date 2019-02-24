@@ -36,7 +36,7 @@ class App extends Component {
 
     const centaur = {
       "textAlign": "center",
-      "padding": "40px",
+      "padding": "4px",
       "background": "black",
     }
 
